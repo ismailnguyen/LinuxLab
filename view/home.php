@@ -1,52 +1,5 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>LinuxLab | ESGI</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<script src="js/jquery.min.js"></script>
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> -->
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
-<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-<script src="js/responsive-nav.js" type="text/javascript"></script>
-<script type="text/javascript">
-	$(document).ready(function () {
-		$('#horizontalTab').easyResponsiveTabs({
-			type: 'default', //Types: default, vertical, accordion           
-			width: 'auto', //auto or any width like 600px
-			fit: true   // 100% fit in a container
-		});
-	});
-</script>	
-</head>
-<body>
-  <div class="wrapper">
-		 <div class="header">
-	       <div class="container header_top">
-				<div class="logo">
-				  <a href="index.html"><img src="images/logo.png" alt=""></a>
-				</div>
-		  		<div class="menu">
-					<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
-					<ul class="nav" id="nav">
-					  <li class="current"><a href="index.html">Accueil</a></li>
-					  <li><a href="index.html">News</a></li>
-					  <li><a href="index.html">Tutos</a></li>
-					  <li><a href="index.html">Wiki</a></li>
-					  <li><a href="index.html">Projets Labo</a></li>	
-					  <li><a href="index.html">Scripts</a></li>
-					  <li><a href="index.html">Distributions</a></li>
-					  <li><a href="index.html">Nous contacter</a></li>								
-					  <div class="clearfix"></div>
-					</ul>
-					
-				</div>							
-	  			<div class="clearfix"> </div>
-			 </div>
-		</div>
-
-     <div class="container banner">
+	
+	<div class="container banner">
 	 	<div class="row">
 	 			<div class='col-md-4 banner_left'>
 	 				<span></span>
@@ -59,6 +12,7 @@
 	 			</div>
 	 	 </div>
 	 </div>
+	 
 	 <div class="main">
 	 	<div class='container content_top'>
 	 		<div class='row'>
@@ -83,7 +37,7 @@
 	 			<div class="col-md-4">
 	 			 <i class="flag"></i>
 	 			 <div class="flag_desc">
-	 			 	<h3><a href="https://www.facebook.com/bde.esgi" target="_blank">BDE de la Victoire</a></h3>
+	 			 	<h3><a href="https://www.facebook.com/bde.esgi" target="_blank">406 BDE Not Acceptable</a></h3>
 	 			 	<p>Il n'y a pas que les cours et les partiels &agrave; l'&eacute;cole, il y a &eacute;galement un BDE tr&egrave;s actif avec des activit&eacute;s tr&egrave;s sympathiques ! En collaboration avec les BDE des autres &eacute;coles du R&eacute;seau GES !</p>
 	 			 	<a href="https://www.facebook.com/bde.esgi" class="link" target="_blank">Visiter</a>
 	 			 </div>
@@ -95,7 +49,7 @@
 	 		<div class="row">
 	 			<div class="col-md-8 middle_left">
 	 				<ul class="test_box middle_grid">
-		    			<li class="test_img"><img src="images/pic1.jpg" class="img-responsive" alt=""> </li>
+		    			<li class="test_img"><img src="resources/images/pic1.jpg" class="img-responsive" alt=""> </li>
 						<li class="test_desc">
 							<h4><a href="#">Titre actualit&eacute; 1</a></h4>
 							<p>Description actualit&eacute; 1 ...</p> 
@@ -103,7 +57,7 @@
 					    <div class="clearfix">	</div>    				
 		    		</ul>
 		    		<ul class="test_box">
-		    			<li class="test_img"><img src="images/pic2.jpg" class="img-responsive" alt=""> </li>
+		    			<li class="test_img"><img src="resources/images/pic2.jpg" class="img-responsive" alt=""> </li>
 						<li class="test_desc">
 							<h4><a href="#">Titre actualit&eacute; 2</a></h4>
 							<p>Description actualit&eacute; 2</p>
@@ -184,7 +138,7 @@
 			  	   	   	  	<li class="mini-post-meta"><time datetime=""><span class="day">07</span><span class="month">July</span></time></li>
 			  	   	   	  	<li class="desc"><h5><a href="#">Titre actualit&eacute; 1</a></h5>
 			  	   	   	  		<span class="comment">18 Comments</span>
-			  	   	   	  		<p>Description actualit&eacute; 1&nbsp;&nbsp; <a href="#"><img src="images/comment_arrow.png" alt=""/></a></p>
+			  	   	   	  		<p>Description actualit&eacute; 1&nbsp;&nbsp; <a href="#"><img src="resources/images/comment_arrow.png" alt=""/></a></p>
 			  	   	   	  	</li>	
 			  	   	   	  	<div class="clearfix"> </div>
 			  	   	   	  </ul>
@@ -192,7 +146,7 @@
 			  	   	   	  	<li class="mini-post-meta"><time datetime=""><span class="day">06</span><span class="month">July</span></time></li>
 			  	   	   	  	<li class="desc"><h5><a href="#">Titre actualit&eacute; 2</a></h5>
 			  	   	   	  		<span class="comment">15 Comments</span>
-			  	   	   	  		<p>Description actualit&eacute; 2&nbsp;&nbsp; <a href="#"><img src="images/comment_arrow.png" alt=""/></a></p>
+			  	   	   	  		<p>Description actualit&eacute; 2&nbsp;&nbsp; <a href="#"><img src="resources/images/comment_arrow.png" alt=""/></a></p>
 			  	   	   	  	</li>		
 			  	   	   	  	<div class="clearfix"> </div>
 			  	   	   	  </ul>
@@ -200,7 +154,7 @@
 			  	   	   	  	<li class="mini-post-meta"><time datetime=""><span class="day">05</span><span class="month">July</span></time></li>
 			  	   	   	  	<li class="desc"><h5><a href="#">Titre actualit&eacute; 3</a></h5>
 			  	   	   	  		<span class="comment">10 Comments</span>
-			  	   	   	  		<p>Description actualit&eacute; 3&nbsp;&nbsp; <a href="#"><img src="images/comment_arrow.png" alt=""/></a></p>
+			  	   	   	  		<p>Description actualit&eacute; 3&nbsp;&nbsp; <a href="#"><img src="resources/images/comment_arrow.png" alt=""/></a></p>
 			  	   	   	  	</li>	
 			  	   	   	  	<div class="clearfix"> </div>
 			  	   	   	  </ul>
@@ -225,70 +179,3 @@
          	</div>
          </div>      
      </div>
-     <div class="container footer">
-       <div class="footer_top">
-     	<div class="row">
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> demonstr lectores</a></li>
-     				<li><a href="#"> sequitur mutationem</a></li>
-     				<li><a href="#"> notare quam</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> anteposuerit lit</a></li>
-     				<li><a href="#"> quarta decima</a></li>
-     				<li><a href="#">  videntur parum</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  nihil imperdiet</a></li>
-     				<li><a href="#"> praesent luptatum</a></li>
-     				<li><a href="#"> molestie consequat</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  euismod tincidunt </a></li>
-     				<li><a href="#"> tation ullamcorper</a></li>
-     				<li><a href="#"> suscipit lobortis</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  litterarum forma</a></li>
-     				<li><a href="#"> quinta decima</a></li>
-     				<li><a href="#"> fiant sollemnes</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> legunt saepius</a></li>
-     				<li><a href="#"> eleifend option</a></li>
-     				<li><a href="#"> feugiat nulla</a></li>
-     		    </ul>
-     		</div>
-     	</div>
-     	</div>
-     	<div class="footer_bottom">
-     	  <div class="copy">
-		    <p>&copy;2015 Tous droits r&eacute;s&eacute;rv&eacute;s <a href="http://esgi-linuxlab.fr/" target="_blank">LinuxLab</a> | <a href="http://esgi.fr/" target="_blank">ESGI</a></p>
-		  </div>
-		  <ul class="social">
-			<li><a href="https://www.facebook.com/pages/LinuxLab/711131565632001"> <i class="fb"> </i> </a></li>
-			<li><a href="https://twitter.com/esgilinuxlab"><i class="tw"> </i> </a></li>
-		  </ul>
-		  <div class="clearfix"> </div>
-     	</div>
-     </div>
- </div>	
-</body>
-</html>		

@@ -1,90 +1,20 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Rocket Bootstarp Website Template | Services :: w3layouts</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--webfont-->
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
-<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-		    <script type="text/javascript">
-			    $(document).ready(function () {
-			        $('#horizontalTab').easyResponsiveTabs({
-			            type: 'default', //Types: default, vertical, accordion           
-			            width: 'auto', //auto or any width like 600px
-			            fit: true   // 100% fit in a container
-			        });
-			    });
-			   </script>	
-</head>
-<body>
-   <!----- start-header---->
-  <div class="wrapper">
-   <!----start-header---->
-		 <div class="header">
-	       <div class="container header_top">
-				<div class="logo">
-				  <a href="index.html"><img src="images/logo.png" alt=""></a>
-				</div>
-		  		<div class="menu">
-					<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
-					<ul class="nav" id="nav">
-					  <li><a href="index.html">Home</a></li>
-					  <li><a href="about.html">About</a></li>
-					  <li class="current"><a href="services.html">Services</a></li>
-					  <li><a href="portfolio.html">Portfolio</a></li>
-					  <li><a href="contact.html">Contact</a></li>								
-					  <div class="clearfix"></div>
-					</ul>
-					<script type="text/javascript" src="js/responsive-nav.js"></script>
-				</div>							
-	  			<div class="clearfix"> </div>
-			    <!----//End-top-nav---->
-			 </div>
-		</div>
-	<!----- //End-header---->
-     <div class="container banner">
-	 	<section class="title-section">
-		   <h1 class="title-header">
-		   Services </h1>
-		   <ul class="breadcrumb breadcrumb__t"><li><a href="index.html">Home</a></li><li class="active">Services</li></ul>  
-		</section>
-	 </div>
+
 	 <div class="main">
 	 	<div class='container content_top'>
 	 		<div class="row">
 		  		<div class="col-md-8 about_left">
-		  			<h3 class="m_2">Testimonials</h3>
-		  			<div class="item_introtext quotation">
-						<blockquote>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce sus cipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio.</p>
-						<small>molestie, age 32</small>
-						</blockquote>
-	                </div>
-	                <div class="item_introtext quotation">
-						<blockquote>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce sus cipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio.</p>
-						<small>Fusce , age 30</small>
-						</blockquote>
-	                </div>
-	                <div class="item_introtext">
-						<blockquote>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce sus cipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio.</p>
-						<small>Aenean, age 28</small>
-						</blockquote>
-	                </div>
+		  			<h3 class="m_2">A Few words About Us</h3>
+		  			<ul class="about_grid1 about_box">
+		  			  <li class="about_img"><img src="images/a1.jpg" class="img-responsive" alt=""></li>
+		  			  <li class="about_desc">
+		  			  	<h5><a href="#">Image Format</a></h5>
+		  			  	<p class="first_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex</p>
+		  			    <h5><a href="#">iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option</a></h5>
+		  			    <p class="first_desc">lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+		  			    <p class="last">nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+		  			  </li>
+		  			  <div class="clearfix"></div>
+		  			</ul>
 		  		  </div>
 		  		  <div class="col-md-4">
 		  		   <h3 class="m_2">Our Vision</h3>
@@ -96,9 +26,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</ul>
 				  </div>
 		  		</div>
-		  	  </div>
-	 		
-		</div>
+		  	</div>
+	 	</div>
 	 	<div class='container content_middle'>
 	 		<div class="row">
 	 			<div class="col-md-8 middle_left">
@@ -233,70 +162,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
          	</div>
          </div>      
      </div>
-     <div class="container footer">
-       <div class="footer_top">
-     	<div class="row">
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> demonstr lectores</a></li>
-     				<li><a href="#"> sequitur mutationem</a></li>
-     				<li><a href="#"> notare quam</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> anteposuerit lit</a></li>
-     				<li><a href="#"> quarta decima</a></li>
-     				<li><a href="#">  videntur parum</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  nihil imperdiet</a></li>
-     				<li><a href="#"> praesent luptatum</a></li>
-     				<li><a href="#"> molestie consequat</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  euismod tincidunt </a></li>
-     				<li><a href="#"> tation ullamcorper</a></li>
-     				<li><a href="#"> suscipit lobortis</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  litterarum forma</a></li>
-     				<li><a href="#"> quinta decima</a></li>
-     				<li><a href="#"> fiant sollemnes</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> legunt saepius</a></li>
-     				<li><a href="#"> eleifend option</a></li>
-     				<li><a href="#"> feugiat nulla</a></li>
-     		    </ul>
-     		</div>
-     	</div>
-     	</div>
-     	<div class="footer_bottom">
-     	  <div class="copy">
-		    <p>&copy;2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
-		  </div>
-		  <ul class="social">
-			<li><a href=""> <i class="fb"> </i> </a></li>
-			<li><a href=""><i class="tw"> </i> </a></li>
-		  </ul>
-		  <div class="clearfix"> </div>
-     	</div>
-     </div>
- </div>	
-</body>
-</html>		
