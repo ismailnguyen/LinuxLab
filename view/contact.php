@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST["contact"]))
 {
-	$dest	= "alex.leonard95@gmail.com";
+	$dest	= "esgi.linuxlab@gmail.com";
 	
 	$name = htmlspecialchars($_POST["name"]); 
 	$subject = htmlspecialchars($_POST["subject"])." (Message de ".$name." depuis LinuxLab)";
@@ -44,7 +44,7 @@ if(isset($_POST["contact"]))
 						<ul>
 							<li><i class="address"></i><p>242 Rue du Faubourg Saint-Antoine<br />75012 Paris<div class="clearfix"></div></li>
 							<li><i class="phone"></i><p>T&eacute;l&eacute;phone: +33 (0)1 56 06 90 31</p><div class="clearfix"></div></li>
-							<li><i class="msg"></i><p>Email: <span class="yellow1"><a href="#">linuxlab(at)esgi.fr</a></span></p><div class="clearfix"></div></li>
+							<li><i class="msg"></i><p>Email: <span class="yellow1"><a href="#">esgi.linuxlab(at)gmail.com</a></span></p><div class="clearfix"></div></li>
 					   </ul>
 					</div>
                   </div>
