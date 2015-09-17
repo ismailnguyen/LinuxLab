@@ -1,22 +1,40 @@
+<?php
+if(isset($_POST["contact"]))
+{
+	$dest	= "alex.leonard95@gmail.com";
+	
+	$name = htmlspecialchars($_POST["name"]); 
+	$subject = htmlspecialchars($_POST["subject"])." (Message de ".$name." depuis LinuxLab)";
+	$mail = htmlspecialchars($_POST["email"]);
+	
+	$message = $_POST["message"];
+	$message = nl2br($message);
+	$message = htmlspecialchars($message);
+	
+	$f = (mail ($dest, $subject, $message, "From:".$mail)) ? "Mail was sent" : "Error, try again"; 
+	 
+	echo "<script>alert('".$f."');</script>";
+}
+?>
 
 	 <div class="main">
 	 	<div class='container contact'>
 	 		<div class="contact_top">
-               <h3>Contact Information</h3>
-               <p>quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eo</p>
+               <h3>Information de contact</h3>
+               <p>Pour toute question ou simple curiosit&eacute;, nous vous invitons &agrave; nous laisser un message via ce formulaire.</p>
                <div class="row">
                  <div class="col-md-8">
-                   <form method="post" action="contact-post.html">
+                   <form method="post" name="contact" action="?contact">
 					<div class="contact-to">
-                     	<input type="text" class="text" value="Name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
-					 	<input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}" style="margin-left: 10px">
-					 	<input type="text" class="text" value="Subject..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject...';}" style="margin-left: 10px">
+                     	<input name="name" type="text" class="text" placeholder="Nom...">
+					 	<input name="email" type="text" class="text" placeholder="Email..." style="margin-left: 10px">
+					 	<input name="subject" type="text" class="text" placeholder="Sujet..." style="margin-left: 10px">
 					</div>
 					<div class="text2">
-	                   <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+	                   <textarea name="message" placeholder="Message..."></textarea>
 	                </div>
 	                <div class="contact_btn">
-	               		<input name="submit" type="submit" id="submit" value="Submit">
+	               		<input name="submit" type="submit" id="submit" value="Envoyer">
 	                </div>
 	                <div class="clearfix"> </div>
 	               </form>
@@ -24,15 +42,15 @@
                   <div class="col-md-4">
                   	<div class="contact-list">
 						<ul>
-							<li><i class="address"></i><p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh</p><div class="clearfix"></div></li>
-							<li><i class="phone"></i><p>Phone: +1 800 258 2689<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1 800 258 2689 </p><div class="clearfix"></div></li>
-							<li><i class="msg"></i><p>Email: <span class="yellow1"><a href="#">info(at)rocket.com</a></span></p><div class="clearfix"></div></li>
+							<li><i class="address"></i><p>242 Rue du Faubourg Saint-Antoine<br />75012 Paris<div class="clearfix"></div></li>
+							<li><i class="phone"></i><p>T&eacute;l&eacute;phone: +33 (0)1 56 06 90 31</p><div class="clearfix"></div></li>
+							<li><i class="msg"></i><p>Email: <span class="yellow1"><a href="#">linuxlab(at)esgi.fr</a></span></p><div class="clearfix"></div></li>
 					   </ul>
 					</div>
                   </div>
                 </div>
 			    <div class="map">
-				  <iframe src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#666;text-align:left;font-size:12px"></a></small>
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.479778034052!2d2.3895477999999994!3d48.8490609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6727347e25d67%3A0xab19968391d595df!2sLyc%C3%A9e+ESGI!5e0!3m2!1sfr!2sfr!4v1442523768018"></iframe><br><small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.479778034052!2d2.3895477999999994!3d48.8490609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6727347e25d67%3A0xab19968391d595df!2sLyc%C3%A9e+ESGI!5e0!3m2!1sfr!2sfr!4v1442523768018" style="color:#666;text-align:left;font-size:12px"></a></small>
 			    </div>
               </div>
 	      </div>
