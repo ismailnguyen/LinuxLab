@@ -2,56 +2,40 @@
      <div class="container footer">
        <div class="footer_top">
      	<div class="row">
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> demonstr lectores</a></li>
-     				<li><a href="#"> sequitur mutationem</a></li>
-     				<li><a href="#"> notare quam</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> anteposuerit lit</a></li>
-     				<li><a href="#"> quarta decima</a></li>
-     				<li><a href="#">  videntur parum</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  nihil imperdiet</a></li>
-     				<li><a href="#"> praesent luptatum</a></li>
-     				<li><a href="#"> molestie consequat</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  euismod tincidunt </a></li>
-     				<li><a href="#"> tation ullamcorper</a></li>
-     				<li><a href="#"> suscipit lobortis</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2 footer_grid">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#">  litterarum forma</a></li>
-     				<li><a href="#"> quinta decima</a></li>
-     				<li><a href="#"> fiant sollemnes</a></li>
-     		    </ul>
-     		</div>
-     		<div class="col-md-2">
-     			<h3 class="m_4">Nam liber</h3>
-     			<ul class="list">
-     				<li><a href="#"> legunt saepius</a></li>
-     				<li><a href="#"> eleifend option</a></li>
-     				<li><a href="#"> feugiat nulla</a></li>
-     		    </ul>
-     		</div>
+
+	 			<div class="col-md-4 flag_grid">
+	 			 <i class="home"></i>
+	 			 <div class="flag_desc">
+	 			 	<h3><a href="http://www.esgi.fr/ecole-formation-informatique-design-paris.html" target="_blank">ESGI</a></h3>
+	 			 	<p>L'ESGI, grande &eacute;cole d'informatique, propose 8 sp&eacute;cialisations en informatique de Bac &agrave; Bac+5, d&eacute;livrant des titres reconnus par l'Etat niveau I et II</p>
+	 			 	<a href="http://www.esgi.fr/ecole-formation-informatique-design-paris.html" class="link" target="_blank">Visiter</a>
+	 			 </div>
+	 			 <div class="clearfix"> </div>
+	 			</div>
+	 			<div class="col-md-4 flag_grid">
+	 			 <i class="camera"></i>
+	 			 <div class="flag_desc">
+	 			 	<h3><a href="http://www.esgi.tv/" target="_blank">ESGI TV</a></h3>
+	 			 	<p>L'actualit&eacute; de la vie associative de l'ESGI</p>
+	 			 	<a href="http://www.esgi.tv/" class="link" target="_blank">Visiter</a>
+	 			 </div>
+	 			  <div class="clearfix"> </div>
+	 			</div>
+	 			<div class="col-md-4">
+	 			 <i class="flag"></i>
+	 			 <div class="flag_desc">
+	 			 	<h3><a href="https://www.facebook.com/bde.esgi" target="_blank">406 BDE Not Acceptable</a></h3>
+	 			 	<p>Il n'y a pas que les cours et les partiels &agrave; l'&eacute;cole, il y a &eacute;galement un BDE tr&egrave;s actif avec des activit&eacute;s tr&egrave;s sympathiques ! En collaboration avec les BDE des autres &eacute;coles du R&eacute;seau GES !</p>
+	 			 	<a href="https://www.facebook.com/bde.esgi" class="link" target="_blank">Visiter</a>
+	 			 </div>
+	 			  <div class="clearfix"> </div>
+	 			</div>
+	 	
+
      	</div>
      	</div>
+		
+		
      	<div class="footer_bottom">
      	  <div class="copy">
 		    <p>&copy;2015 Tous droits r&eacute;s&eacute;rv&eacute;s <a href="http://esgi-linuxlab.fr/" target="_blank">LinuxLab</a> | <a href="http://esgi.fr/" target="_blank">ESGI</a></p>

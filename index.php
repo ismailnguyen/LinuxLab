@@ -1,5 +1,5 @@
 <?php
-$_page = "home"; //default page
+$page = "home"; //default page
 
 $pages = array("home" => "Accueil",
 				"news" => "News",
@@ -13,9 +13,32 @@ $pages = array("home" => "Accueil",
 
 foreach($pages as $path => $name)
 	if(isset($_GET[$path]))
-		$_page = $path;
+		$page = $path;
 
+
+if(isset($_GET["projets"]) && !empty($_GET["projets"]))
+	$page = "projets/".$_GET["projets"];
+
+if(isset($_GET["tutos"]) && !empty($_GET["tutos"]))
+	$page = "tutos/".$_GET["tutos"];
+
+if(isset($_GET["news"]) && !empty($_GET["news"]))
+	$page = "news/".$_GET["news"];
+
+if(isset($_GET["scripts"]) && !empty($_GET["scripts"]))
+	$page = "scripts/".$_GET["scripts"];
+
+if(isset($_GET["distributions"]) && !empty($_GET["distributions"]))
+	$page = "distributions/".$_GET["distributions"];
+
+
+$page = "view/".$page.".php";
+
+if(!is_file($page))
+$page = "view/error/404.php";
+
+	
 include("view/header.php");
-include("view/".$_page.".php");
+include($page);
 include("view/footer.php");
 ?>
