@@ -12,7 +12,7 @@ if(isset($_POST["contact"]))
 	$message = htmlspecialchars($message);
 	
 	$f = (mail ($dest, $subject, $message, "From:".$mail)) ? "Mail was sent" : "Error, try again"; 
-	 
+
 	echo "<script>alert('".$f."');</script>";
 }
 ?>
@@ -24,7 +24,7 @@ if(isset($_POST["contact"]))
                <p>Pour toute question ou simple curiosit&eacute;, nous vous invitons &agrave; nous laisser un message via ce formulaire.</p>
                <div class="row">
                  <div class="col-md-8">
-                   <form method="post" name="contact" action="?contact">
+                   <form method="post" action="?contact">
 					<div class="contact-to">
                      	<input name="name" type="text" class="text" placeholder="Nom...">
 					 	<input name="email" type="text" class="text" placeholder="Email..." style="margin-left: 10px">
@@ -34,7 +34,7 @@ if(isset($_POST["contact"]))
 	                   <textarea name="message" placeholder="Message..."></textarea>
 	                </div>
 	                <div class="contact_btn">
-	               		<input name="submit" type="submit" id="submit" value="Envoyer">
+	               		<input name="contact" type="submit" value="Envoyer">
 	                </div>
 	                <div class="clearfix"> </div>
 	               </form>
