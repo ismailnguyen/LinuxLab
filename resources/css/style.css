@@ -14,6 +14,7 @@ p {margin: 0;}
 html, body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
+	font-weight: 300; /* slim font */
 	background:url(../images/bg-blue.jpg) fixed;
 	background-size: 100% auto;
 }
@@ -1035,27 +1036,9 @@ i.msg{
 	margin-right: 1em;
 }
 .contact_btn input[type="submit"]{
-	color: #FFF;
-	font-size:1em;
-	font-weight: normal;
-	padding: 10px 30px;
-	background:#1793D1;
 	float: right;
-	display: inline-block;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-	border:none;
-	outline:none;
-	cursor:pointer;
 }
-.contact_btn input[type="submit"]:hover{
-	background: #f77462;
-	text-decoration:none;
-	color:#fff;
-}
+
 /*--responsive design--*/
 @media (max-width:1366px){
 }
@@ -1361,4 +1344,55 @@ h1.title-header {
 	padding: 0;
 	margin-top: 3em;
 }
+}
+
+input {
+  outline: none;
+}
+
+#box {
+  width: 345px;
+  margin: 0 auto;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=submit], textarea {
+  width: 300px;
+  height: 55px;
+  position: relative;
+  display: block;
+  margin-bottom: -10px;
+  padding: 15px;
+  box-sizing: border-box;
+  -webkit-text-stroke: 0.1px;
+}
+
+input[type=text], input[type=password], input[type=email], textarea {
+  border: thin solid #ccc;
+  color: #1793D1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus {
+  border: thin solid #1793D1;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  border-left: thin solid #1793D1;
+}
+
+input[type=submit] {
+  color: #fff;
+  background-color: #1793D1;
+  border: 1px solid #1793D1;
+  font-size: 16px;
+  transition: all .3s ease;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #f77462;
+	border: 1px solid #f77462;
+	text-decoration:none;
+	color:#fff;
 }

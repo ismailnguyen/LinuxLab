@@ -1,4 +1,7 @@
 <?php
+require_once("includes/conf.inc.php");
+require_once("includes/func.inc.php");
+
 $page = "home"; //default page
 
 $pages = array("home" => "Accueil",
@@ -8,9 +11,13 @@ $pages = array("home" => "Accueil",
 				"projets" => "Projets Labo",
 				"scripts" => "Scripts",
 				"distributions" => "Distributions",
-				"contact" => "Nous contacter"
+				"contact" => "Nous contacter",
+				"mon-compte" => "Mon compte"
 				);
 
+//if(isset($_SESSION["user"]))
+//	$pages["logout"] = "Deconnexion";
+				
 foreach($pages as $path => $name)
 	if(isset($_GET[$path]))
 		$page = $path;

@@ -1,33 +1,15 @@
-<?php
-if(isset($_POST["contact"]))
-{
-	$dest	= "esgi.linuxlab@gmail.com";
-	
-	$name = htmlspecialchars($_POST["name"]); 
-	$subject = htmlspecialchars($_POST["subject"])." (Message de ".$name." depuis LinuxLab)";
-	$mail = htmlspecialchars($_POST["email"]);
-	
-	$message = $_POST["message"];
-	$message = nl2br($message);
-	$message = htmlspecialchars($message);
-	
-	$f = (mail ($dest, $subject, $message, "From:".$mail)) ? "Mail was sent" : "Error, try again"; 
-
-	echo "<script>alert('".$f."');</script>";
-}
-?>
 
 	 <div class="main">
-	 	<div class='container contact'>
+	 	<div class="container contact">
 	 		<div class="contact_top">
                <h3>Information de contact</h3>
                <p>Pour toute question ou simple curiosit&eacute;, nous vous invitons &agrave; nous laisser un message via ce formulaire.</p>
                <div class="row">
                  <div class="col-md-8">
-                   <form method="post" action="?contact">
+                   <form method="post" action="./?contact">
 					<div class="contact-to">
                      	<input name="name" type="text" class="text" placeholder="Nom...">
-					 	<input name="email" type="text" class="text" placeholder="Email..." style="margin-left: 10px">
+					 	<input name="email" type="email" class="text" placeholder="Email..." style="margin-left: 10px">
 					 	<input name="subject" type="text" class="text" placeholder="Sujet..." style="margin-left: 10px">
 					</div>
 					<div class="text2">
@@ -44,7 +26,7 @@ if(isset($_POST["contact"]))
 						<ul>
 							<li><i class="address"></i><p>242 Rue du Faubourg Saint-Antoine<br />75012 Paris<div class="clearfix"></div></li>
 							<li><i class="phone"></i><p>T&eacute;l&eacute;phone: +33 (0)1 56 06 90 31</p><div class="clearfix"></div></li>
-							<li><i class="msg"></i><p>Email: <span class="yellow1"><a href="#">esgi.linuxlab(at)gmail.com</a></span></p><div class="clearfix"></div></li>
+							<li><i class="msg"></i><p>Email: <span class="yellow1"><a href="mailto:admin@esgi-linuxlab.fr">admin@esgi-linuxlab.fr</a></span></p><div class="clearfix"></div></li>
 					   </ul>
 					</div>
                   </div>
