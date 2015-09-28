@@ -66,5 +66,5 @@ class AccountSubscribe extends BusinessLayer
 }
 
 $api = new AccountSubscribe();
-$api->run();
+return $api->run();
 ?>

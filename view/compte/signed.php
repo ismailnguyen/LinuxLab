@@ -11,15 +11,15 @@
                <p>Si vous avez une id&eacute;e d'article, n'h&eacute;sitez pas &agrave; nous la soumettre !</p>
                <div class="row">
                  <div class="col-md-12">
-                   <form method="post" action="./?contact">
+                   <form method="post" action="./?mon-compte">
 					<div class="contact-to">
-					 	<input name="subject" type="text" class="text" placeholder="Sujet..." style="margin-left: 10px">
+					 	<input name="title" type="text" class="text" placeholder="Titre..." style="margin-left: 10px">
 					</div>
 					<div class="text2">
 	                   <textarea name="content" placeholder="Contenu de l'actualit&eacute;..."></textarea>
 	                </div>
 	                <div class="contact_btn">
-	               		<input name="contact" type="submit" value="Soumettre"><br/><br/>
+	               		<input name="add_article" type="submit" value="Soumettre"><br/><br/>
 	                </div>
 	                <div class="clearfix"> <br/></div>
 	               </form>

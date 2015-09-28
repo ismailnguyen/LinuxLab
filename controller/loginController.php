@@ -54,5 +54,5 @@ class AccountLogin extends BusinessLayer
 }
 
 $api = new AccountLogin();
-$api->run();
+return $api->run();
 ?>

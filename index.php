@@ -29,9 +29,6 @@ if(isset($_GET["projets"]) && !empty($_GET["projets"]))
 if(isset($_GET["tutos"]) && !empty($_GET["tutos"]))
 	$page = "tutos/".$_GET["tutos"];
 
-if(isset($_GET["news"]) && !empty($_GET["news"]))
-	$page = "news/".$_GET["news"];
-
 if(isset($_GET["scripts"]) && !empty($_GET["scripts"]))
 	$page = "scripts/".$_GET["scripts"];
 
