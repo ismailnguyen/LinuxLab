@@ -72,7 +72,7 @@ $_count = $_count->count();
          		  	</li>
          		  	<div class="clearfix"></div>
          		  </ul>
-         		  <ul class="comment_section">
+					<ul class="comment_section">
          		  		<br><span class="m_2"><div class="fb-page" data-href="https://www.facebook.com/pages/LinuxLab/711131565632001" data-width="500" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/LinuxLab/711131565632001"><a href="https://www.facebook.com/pages/LinuxLab/711131565632001">LinuxLab</a></blockquote></div></div></div></span>
          		  	<div class="clearfix"></div>
          		  </ul>
