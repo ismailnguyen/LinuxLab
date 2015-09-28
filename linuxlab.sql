@@ -31,3 +31,10 @@ CREATE TABLE IF NOT EXISTS `article` (
   `created_date` date NOT NULL,
   PRIMARY KEY (`id_article`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
+
+--
+-- Contenu de la table `article`
+--
+
+INSERT INTO `article` (`id_article`, `id_account`, `title`, `content`, `created_date`) VALUES
+(1, 1, 'Inscriptions ouvertes !', 'Pour vous inscrire, c''est ici !', '2015-09-21');
